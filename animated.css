@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg,#44181e,#c46535,#2d1453,#9a8d53);
+    background-size:300% 300%;
+    animation:color 4s ease-in-out infinite;
+
+}
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+header{ 
+      font-size: 45px;
+}
+.log{
+
+    border-top-width: 100px;
+    width: 380px;
+    background:rgb(107, 22, 22);
+    border-radius: 10px;
+    padding: 30px 40px;
+    background-color: rgba(195, 191, 191, 0.489); 
+}
+.log h1{
+    text-align: center;
+
+}
+.log .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    margin: 30px 0;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline:none;
+    border: 2px solid rgba(red, green, blue, alpha);
+    border-radius: 45px;
+    padding: 20px 45px 20px 20px;
+
+}
+.log .login{
+    justify-content: center;
+}
+.log i{
+ position: absolute;
+ right: 20px;
+ top: 50%;
+ font-size: 20px;
+ transform: translate(-50%);
+
+}
+
+.log .icon i{
+    position: relative;
+    right: -170px;
+    font-size: 40px;
+}
+input[type="submit"] {
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline:none;
+    border: 2px solid rgba(red, green, blue, alpha);
+    border-radius: 45px;
+    background-color:white;
+    color:black;
+    cursor: pointer;
+    box-shadow: 0 0 10px ;
+}
+.log .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+margin-bottom: 5px;
+margin-inline-end: 5px;
+}
+.log .remember-forgot h1{
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+    font-size: 12px;
+margin-top: 5px;
+margin-left: 70px;}

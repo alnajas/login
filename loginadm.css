@@ -1,0 +1,98 @@
+
+*{
+    font-family: Arial, sans-serif;
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("https://www.cemunnar.ac.in/wp-content/uploads/2019/07/lh-web-1024x397.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+head{
+    font-family: Arial, sans-serif;
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.log{
+    width: 420px;
+    background:gray;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 30px 40px;
+    background-color: rgba(241, 238, 238, 0.489); 
+}
+.log h1{
+    text-align: center;
+
+}
+.log .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    margin: 30px 0;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline:none;
+    border: 2px solid rgba(red, green, blue, alpha);
+    border-radius: 45px;
+    padding: 20px 45px 20px 20px;
+
+}
+.log .btn{
+    justify-content: center;
+}
+.log i{
+ position: absolute;
+ right:20px;
+ top: 50%;
+ font-size: 20px;
+ transform: translate(-50%);
+
+}
+
+.log .icon i{
+    position: relative;
+    right:-165px;
+    font-size: 40px;
+}
+.btn {
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline:none;
+    border: 2px solid rgba(red, green, blue, alpha);
+    border-radius: 45px;
+    background-color:white;
+    color:black;
+    cursor: pointer;
+    box-shadow: 0 0 10px ;
+    text-decoration: none;
+}
+.log .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+margin-bottom: 5px;
+margin-inline-end: 5px;
+}
+.log .remember-forgot h1{
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+    font-size: 12px;
+margin-top: 5px;
+margin-left: 70px;}
